@@ -1,0 +1,192 @@
+body {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;	
+	font-weight: 900;
+	margin: 0;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.header {
+	background: rgba(78,192,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,192,254,1)), color-stop(0%, rgba(77,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(135deg, rgba(78,192,254,1) 0%, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 62px;
+	padding-bottom: 100px;
+	color: #fff;
+}
+
+.conteiner {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.desktop {
+	margin-top: 57px;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	margin-top: 170px;
+	width: 638px;
+}
+
+.title {
+	font-size: 32px;
+	padding-left: 12px;
+}
+
+.title span {
+	font-size: 45px;
+}
+
+.intro {
+	margin-bottom: 55px;
+	margin-top: 40px;
+	width: 400px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background:  #ffd429;
+	color: #000;
+	width: 222px;
+	padding: 20px;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #ad8e11;
+	color: #000;
+}
+
+.learn {
+	margin-top: 109px;
+	margin-bottom: 122px;
+}
+
+.section-title {
+	font-size: 30px;
+	text-align: center;
+}
+
+.life-slyles {
+	display: flex;
+	justify-content: space-between;
+}
+
+.future {
+	width: 340px;
+}
+
+.free-time {
+	margin-left: 130px;
+	margin-top: 74px;
+}
+
+.time-title {
+	margin-left: 80px;
+	margin-top: 30px;	
+	font-size: 19px;
+}
+
+.time-text {
+	margin-left: 13px;
+}
+
+.time-textr {
+	padding-left: 90px;
+}
+
+.time-tet {
+	padding-left: 140px;
+}
+
+.travel {
+	margin-left: 145px;
+	margin-top: 65px;
+}
+
+.values {
+	margin-left: 155px;
+	margin-top: 62px;
+}
+
+.textr {
+	padding-left: 80px;
+}
+
+.field {
+	padding-bottom: 16px;
+	text-align: center;
+}
+
+.form {
+	padding-top: 102px;
+	padding-bottom: 63px;
+}
+
+.forme {
+	width: 340px;
+	height: 46px;
+	padding: 20px;
+	border: 1px solid #bbbbbb;
+	border-radius: 5px ;
+}
+
+.form-btn {
+	font-family: 'Montserrat', sans-serif;
+	background:  #ffd429;
+	color: #000;
+	width: 340px;
+	height: 56px;
+	padding: 20px;
+	margin-left: 413px;
+	margin-bottom: 107px;
+	text-decoration: none;
+	transition: all 0.5s ease;
+	cursor: pointer;
+	border: 0;
+}
+
+.form-btn:hover {
+	background: #ad8e11;
+	color: #000;
+}
+
+.mail {
+	background: #ecf3f8;
+}
+
+.footer {
+	background: #164d7a;
+	padding: 62px 0;
+}
+
+.credits {
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}

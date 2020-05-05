@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
@@ -134,10 +138,6 @@ header {
 	text-align: center;
 }
 
-.field button {
-	width: 100% !important;
-}
-
 .form {
 	padding-top: 102px;
 	padding-bottom: 63px;
@@ -145,7 +145,6 @@ header {
 
 .forme {
 	width: 340px;
-	height: 46px;
 	padding: 20px;
 	border: 1px solid #bbbbbb;
 	border-radius: 5px;

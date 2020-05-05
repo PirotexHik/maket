@@ -47,7 +47,7 @@ header {
 }
 
 .conteiner {
-	width: 90%;
+	width: 1170px;
 	margin: 0 auto;
 }
 
@@ -180,4 +180,51 @@ header {
 	font-size: 14px;
 	color: #fff;
 	text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+	.conteiner {
+		width: 960px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.conteiner {
+		width: 720px;
+	}
+	.wrapper {
+		flex-direction: column-reverse;
+	}
+	.offer {
+		width: 100%;
+		margin-top: 50px;
+	}
+	.desktop {
+		display: block;
+		width: 100%;
+	}
+	.life-slyles {
+		flex-direction: column;
+	}
+	.future {
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.conteiner {
+		width: 540px;
+	}
+	.desktop {
+		width: 100%;
+	}
+	.title {
+		padding-left: 0;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.conteiner {
+		width: 90%;
+	}
 }

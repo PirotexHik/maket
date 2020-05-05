@@ -181,20 +181,25 @@ header {
 	.conteiner {
 		width: 720px;
 	}
+
 	.wrapper {
 		flex-direction: column-reverse;
 	}
+
 	.offer {
 		width: 100%;
 		margin-top: 50px;
 	}
+
 	.desktop {
 		display: block;
 		width: 100%;
 	}
+
 	.life-slyles {
 		flex-direction: column;
 	}
+
 	.future {
 		width: auto;
 	}
@@ -204,15 +209,19 @@ header {
 	.conteiner {
 		width: 540px;
 	}
+
 	.desktop {
 		width: 100%;
 	}
+
 	.title {
 		padding-left: 0;
 	}
+
 	.forme {
 		width: 100%;
 	}
+
 	.form-btn {
 		width: 100%;
 	}
@@ -222,6 +231,7 @@ header {
 	.conteiner {
 		width: 90%;
 	}
+
 	.intro {
 		width: 100%;
 	}

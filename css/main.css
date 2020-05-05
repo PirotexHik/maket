@@ -53,6 +53,7 @@ header {
 
 .desktop {
 	margin-top: 57px;
+	width: 500px;
 }
 
 .wrapper {
@@ -88,6 +89,8 @@ header {
 	padding: 20px;
 	text-decoration: none;
 	transition: all 0.5s ease;
+	border: 0;
+	cursor: pointer;
 }
 
 .btn:hover {
@@ -131,6 +134,10 @@ header {
 	text-align: center;
 }
 
+.field button {
+	width: 100% !important;
+}
+
 .form {
 	padding-top: 102px;
 	padding-bottom: 63px;
@@ -142,24 +149,6 @@ header {
 	padding: 20px;
 	border: 1px solid #bbbbbb;
 	border-radius: 5px;
-}
-
-.form-btn {
-	font-family: 'Montserrat', sans-serif;
-	background: #ffd429;
-	color: #000;
-	width: 340px;
-	height: 56px;
-	padding: 20px;
-	margin-bottom: 107px;
-	text-decoration: none;
-	transition: all 0.5s ease;
-	cursor: pointer;
-	border: 0;
-}
-
-.fbtn {
-	text-align: center;
 }
 
 .form-btn:hover {
@@ -220,6 +209,12 @@ header {
 	}
 	.title {
 		padding-left: 0;
+	}
+	.forme {
+		width: 100%;
+	}
+	.form-btn {
+		width: 100%;
 	}
 }
 

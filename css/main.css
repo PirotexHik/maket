@@ -227,4 +227,7 @@ header {
 	.conteiner {
 		width: 90%;
 	}
+	.intro {
+		width: 100%;
+	}
 }
